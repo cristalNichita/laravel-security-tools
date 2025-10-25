@@ -1,7 +1,7 @@
 # 🔒 Laravel Security Tools
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/fragly/laravel-security-tools.svg?style=for-the-badge&color=blueviolet)](https://packagist.org/packages/fragly/laravel-security-tools)
 [![Downloads](https://img.shields.io/packagist/dt/fragly/laravel-security-tools.svg?style=for-the-badge&color=brightgreen)](https://packagist.org/packages/fragly/laravel-security-tools)
-[![License](https://img.shields.io/github/license/FraglyDev/laravel-security-tools.svg?style=for-the-badge)](https://github.com/FraglyDev/laravel-security-tools/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/cristalNichita/laravel-security-tools.svg?style=for-the-badge)](https://github.com/cristalNichita/laravel-security-tools/blob/main/LICENSE)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Patreon-ff424d?logo=patreon&style=for-the-badge)](https://www.patreon.com/c/FraglyDev)
 
 > **Automatically scan your Laravel project for common security vulnerabilities in `.env` and configuration files.**  
@@ -128,7 +128,7 @@ run: php artisan security:scan --strict
 
 ## 🧩 Compatibility
 ### - `Laravel: 9.x – 11.x`
-### - `PHP: 8.1+`
+### - `PHP: >=8.2`
 
 ## ❤️ Support & Sponsorship
 ### If you like this package, you can support its development and get access to exclusive Laravel & Next.js dev tools:
@@ -141,7 +141,7 @@ run: php artisan security:scan --strict
 ### Fragly Dev — Building tools for modern Laravel & Next.js developers.
 ### Follow for more developer utilities, security helpers, and SaaS-ready boilerplates.
 
-### [GitHub](https://github.com/FraglyDev)
+### [GitHub](https://github.com/cristalNichita)
 ### [Patreon](https://www.patreon.com/c/FraglyDev)
 ### [Website](https://fragly.net)
 
