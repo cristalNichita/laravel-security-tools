@@ -127,7 +127,7 @@ run: php artisan security:scan --strict
 ```
 
 ## 🧩 Compatibility
-### - `Laravel: 9.x – 11.x`
+### - `Laravel: 9.x – 12.x`
 ### - `PHP: >=8.2`
 
 ## ❤️ Support & Sponsorship
