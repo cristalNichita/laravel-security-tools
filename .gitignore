@@ -1,0 +1,79 @@
+# -----------------------------------------------------------------------------
+# Laravel Security Tools — .gitignore
+# Optimized for Laravel packages (NOT full Laravel apps)
+# -----------------------------------------------------------------------------
+
+# Composer
+/vendor/
+composer.lock
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# PHPUnit & Pest
+.phpunit.result.cache
+coverage/
+test-results/
+tests/_output/
+tests/_support/_generated/
+
+# Logs & Reports
+*.log
+storage/
+security-report.md
+
+# Build artifacts
+/build/
+.cache/
+node_modules/
+dist/
+.tmp/
+.env
+.env.*
+!.env.example
+
+# Composer vendor publish cache
+.phpunit.cache/
+.php-cs-fixer.cache
+.phpstan/
+.phpstan.cache
+*.phar
+
+# Local debug exports
+*.zip
+*.tar.gz
+*.bak
+*.tmp
+
+# OS/Editor specific
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Coverage artifacts
+clover.xml
+coverage.xml
+*.cov
+htmlcov/
+
+# -----------------------------------------------------------------------------
+# ✅ GitHub & Packagist export
+# Keep only necessary directories
+# -----------------------------------------------------------------------------
+!src/
+!config/
+!tests/
+!README.md
+!composer.json
+!LICENSE*
+!.gitattributes
+!.gitignore
+!phpunit.xml

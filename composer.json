@@ -1,0 +1,47 @@
+{
+    "name": "fragly/laravel-security-tools",
+    "description": "Security scanner for Laravel: .env and config checks with CLI and Markdown reports.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fragly\\SecurityTools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FraglyDev",
+            "email": "support@fragly.net"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "illuminate/support": "^10.0 || ^11.0 || ^12.0",
+        "illuminate/console": "^10.0 || ^11.0 || ^12.0",
+        "symfony/finder": "^7.0",
+        "symfony/string": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fragly\\SecurityTools\\SecurityToolsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "pestphp/pest": "^3.8",
+        "pestphp/pest-plugin-laravel": "^3.2",
+        "orchestra/testbench": "9.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test:cov": "vendor/bin/pest --coverage"
+    }
+}
